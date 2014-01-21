@@ -1,0 +1,69 @@
+Client Login
+----
+<form method="post" action="https://secure.gempakbox.net/dologin.php">
+Email Address: <input type="text" name="username" size="50" /><br />
+Password: <input type="password" name="password" size="20" /><br />
+<input type="submit" value="Login" />
+</form>
+
+
+Domain Availbility Lookup
+----
+<form action="https://secure.gempakbox.net/domainchecker.php" method="post">
+<input type="hidden" name="direct" value="true" />
+Domain: <input type="text" name="domain" size="20" /> <select name="ext">
+<option>.com</option>
+<option>.net</option>
+<option>.org</option>
+<option>.biz</option>
+<option>.tv</option>
+<option>.info</option>
+<option>.us</option>
+<option>.cc</option>
+<option>.name</option>
+<option>.com.my</option>
+<option>.net.my</option>
+<option>.name.my</option>
+<option>.org.my</option>
+<option>.edu.my</option>
+<option>.gov.my</option>
+<option>.my</option>
+<option>.fm</option>
+<option>.coop</option>
+<option>.ws</option>
+</select>
+<input type="submit" value="Go" />
+</form>
+
+Domain Ordering
+----
+<form action="https://secure.gempakbox.net/cart.php?a=add&domain=register" method="post">
+Domain: <input type="text" name="sld" size="20" /> <select name="tld">
+<option>.com</option>
+<option>.net</option>
+<option>.org</option>
+<option>.biz</option>
+<option>.tv</option>
+<option>.info</option>
+<option>.us</option>
+<option>.cc</option>
+<option>.name</option>
+<option>.com.my</option>
+<option>.net.my</option>
+<option>.name.my</option>
+<option>.org.my</option>
+<option>.edu.my</option>
+<option>.gov.my</option>
+<option>.my</option>
+<option>.fm</option>
+<option>.coop</option>
+<option>.ws</option>
+</select>
+<input type="submit" value="Go" />
+</form>
+
+User Registration
+----
+<a href="https://secure.gempakbox.net/register.php">Click here to register with us</a>
+
+
