@@ -306,31 +306,35 @@ or Windows</li>
           DOMAIN NAME NOW 
           <!--domaintxt--> 
         </div>
+        <form action="https://secure.gempakbox.net/domainchecker.php" method="post">
+        <input type="hidden" name="direct" value="true" />
         <input type="text" id="domainfield" name="domain" class="field1" value="enter your domain name here...." onfocus='javascript: if(this.value =="enter your domain name here....") this.value = ""' onblur='javascript: if(this.value =="") this.value = "enter your domain name here...."' />
         <div class="dropdown1">
           <select class="field2" name="ext" id="ext">
-            <option>.com.my</option>
-            <option>.org.my</option>
-            <option>.net.my</option>
-            <option>.biz</option>
-			<option>.tv</option>
-			<option>.info</option>
-			<option>.us</option>
-			<option>.cc</option>
-            <option>.name</option>
-            <option>.com</option>
-            <option>.net</option>
-            <option>.name</option>
-            <option>.org</option>
-            <option>.edu</option>
-            <option>.gov</option>
-            <option>.my</option>
-            <option>.fm</option>
-            <option>.coop</option>
+                <option>.com</option>
+                <option>.net</option>
+                <option>.org</option>
+                <option>.biz</option>
+                <option>.tv</option>
+                <option>.info</option>
+                <option>.us</option>
+                <option>.cc</option>
+                <option>.name</option>
+                <option>.com.my</option>
+                <option>.net.my</option>
+                <option>.name.my</option>
+                <option>.org.my</option>
+                <option>.edu.my</option>
+                <option>.gov.my</option>
+                <option>.my</option>
+                <option>.fm</option>
+                <option>.coop</option>
+                <option>.ws</option>
           </select>
           <!--dropdown1--> 
         </div>
         <input name="button" type="submit"  class="field3" value="GO"/>
+        </form>
         <!--domainlt--> 
       </div>
       <div class="domainrt">
