@@ -1,0 +1,185 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container {
+	float: left;
+	width: 1000px;
+	clear: both;
+	margin: 50px 0 0;
+}
+.slider-container h3{
+	margin:0 0 34px;
+	padding:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:42px;
+	color:#333;
+	line-height:40px;
+	font-weight:normal;
+}
+.sliderbox {
+	float: left;
+	width: 1000px;
+	margin: 0 0 24px;
+}
+.slider-container #slider {
+	width: 932px;
+	height: 44px;
+	background: url(../images/slide_bg.png) no-repeat left top;
+	padding: 0;
+	border: 0;
+	margin: 0 auto 22px;
+}
+.slider-container #slider .ui-slider-range {
+	background: url(../images/slide_bg_active.png) no-repeat 5px top;
+}
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background: url(../images/point.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 50px;
+	height: 58px;
+	margin-top: -16px;
+	margin-left: -23px;
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.vpsbox {
+	float: left;
+	width: 816px;
+	padding: 0 92px;
+}
+.vpsbox div.icon {
+	float: left;
+	width: 90px;
+	height: 62px;
+	display: block;
+	cursor: pointer;
+	background: url(../images/cloud_bg.png) no-repeat left bottom;
+	margin: 0 90px 0 0;
+}
+.vpsbox div.current {
+	background: url(../images/cloud_bg_active.png) no-repeat left top;
+}
+.vpsbox div.icon:last-child {
+	margin: 0px;
+}
+.slide_content {
+	float: left;
+	width: 1000px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.slide_content .slide_contentlt {
+	float: left;
+	width: 738px;
+	padding: 40px 20px;
+}
+.slide_content .slide_contentlt .smallbox1 {
+	float: left;
+	width: 135px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3f3f3f;
+	font-weight: bold;
+	margin: 0 6px 0 0;
+}
+.slide_content .slide_contentlt .smallbox1 img {
+	float: left;
+	margin: 0 8px 0 0;
+}
+.slide_content .slide_contentlt .smallbox1:last-child {
+	margin: 0px;
+}
+.slide_content .pricebox {
+	float: right;
+	width: 220px;
+	min-height:104px;
+	font-size: 34px;
+	color: #bf0000;
+	line-height: 66px;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	padding: 24px 0 0;
+}
+.slide_content .pricebox span.numeric {
+	font-size: 62px;
+}
+.slide_content .pricebox span.month {
+	font-size: 16px;
+	color: #777;
+	line-height: 10px;
+}
+.slide_btn {
+	width: 242px;
+	font-size: 22px;
+	padding: 0 0 8px;
+	margin: 30px auto 0;
+}
+.slide_btn a {
+	box-shadow: 0px 3px 5px #656565;
+	padding: 15px 20px;
+}

@@ -1,0 +1,36 @@
+.CollapsiblePanel {
+	float:left;
+	width:100%;
+	margin-bottom: 1px;
+}
+.CollapsiblePanelTab {
+	background: url(../images/plus_icon.png) no-repeat 98% center #000;
+	margin: 0px;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 35px;
+	cursor: pointer;
+}
+.CollapsiblePanelContent {
+	float:left;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+}
+.CollapsiblePanelTab a {
+}
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	text-shadow: 0px 1px 0px #a00000;
+	background: url(../images/negetive_icon.png) no-repeat 98% center, url(../images/headingbg.png) repeat-x left top;
+}
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ /* background-color: #EFEFEF */
+}
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+}
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	text-shadow: 0px 1px 0px #a00000;
+	background: url(../images/negetive_icon.png) no-repeat 98% center, url(../images/headingbg.png) repeat-x left top;
+}

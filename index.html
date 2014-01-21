@@ -1,0 +1,837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GB Network</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script>
+$(function() {
+$("#tab_con1").organicTabs({
+	"speed": 200
+	});
+});
+</script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+	$('#bannerSlides').cycle({ 
+		fx: 'fade',// name of transition effect (or comma separated names, ex: 'fade,scrollUp,shuffle')
+		sync: 1,
+		startingSlide:0,
+		width:		'100%',
+		height:		0,
+		pager:      '#slider-nav',
+		speed:         1000,  // speed of the transition (any valid fx speed value) 
+		timeout:       50000,  // milliseconds between slide transitions (0 to disable auto advance)
+		pauseOnPagerHover: 0, // true to pause when hovering over pager link 
+		next:       '#next',  // element, jQuery object, or jQuery selector string for the element to use as event trigger for next slide 
+		prev:       '#prev'  // element, jQuery object, or jQuery selector string for the element to use as event trigger for previous slide
+		});
+$(document).ready(function () {
+		$('#hide').click(
+    	function () {
+        //show its submenu
+        $(".dropdown_link").stop().slideToggle(100);    
+    	});
+		$('#hide2').click(
+    	function () {
+        //show its submenu
+        $(".dropdown_link2").stop().slideToggle(100);    
+    	});
+
+	});
+});	
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=129597770458417";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="wrapper">
+  <div class="headerbox">
+    <div class="logo"><a href="index.html"></a></div>
+    <div class="headerrt">
+      <ul class="list1">
+        <li class="icon1" style="position:relative; z-index:1;"><a id="hide2" href="#">Client Login</a>
+          <div class="dropdown_link2">
+            <ul class="list2">
+              <li><a href="create_account.html">Create Account</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="icon2"><a href="contact.html">Contact</a></li>
+        <li class="icon3">(+603)-8988-9909</li>
+      </ul>
+      <div style="float:right; width:100px; position:relative; z-index:1">
+        <div class="flagbox" id="hide"> <img src="images/top_flag2.png" alt="" /> <a href="#"></a> 
+          <!--flagbox--> 
+        </div>
+        <div class="clear"></div>
+        <div class="dropdown_link">
+          <ul>
+            <li><a href="malaysia.html"><img src="images/top_flag2.png" alt="" /> Malaysia</a></li>
+            <li><a href="english.html"><img src="images/top_flag1.png" alt="" /> English</a></li>
+          </ul>
+          <!--dropdown_link--> 
+        </div>
+      </div>
+      <!--headerrt--> 
+    </div>
+    <!--headerbox--> 
+  </div>
+  <div class="clear"></div>
+  <!--wrapper--> 
+</div>
+<div class="menu_con">
+  <div class="wrapper">
+    <div id="nav">
+      <ul>
+        <li class="home_btn"><a class="current" href="index.html"></a></li>
+        <li><a href="shared_hosting.html">Web Hosting</a></li>
+        <li><a href="dedicated.html">Dedicated Server</a></li>
+        <li><a href="vps.html">VPS Server</a></li>
+        <li><a href="colocation.html">Colocation</a></li>
+        <li><a href="domain_ssl.html">Domain & SSL</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a class="offerbtn" href="#">Special Offers</a></li>
+      </ul>
+      <!--nav--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <!--menu_con--> 
+</div>
+<div class="bannercon">
+  <div class="wrapper">
+    <div class="banner-slides-con">
+      <div id="bannerSlides" class="banner-slides">
+        <div class="slide slide1">
+          <div class="banner">
+            <h1>Hot Deals Dedicated Server</h1>
+            <h2>GempakBox Has been Setting the Standard for Reliability and Performance</h2>
+            <ul>
+              <li class="bannericon1">Intel Xeon E3-1270v3<br />(4x3.5 Ghz)</li>
+              <li class="bannericon2">8GB<br />RAM</li>
+              <li class="bannericon3">1x1000GB<br />HDD</li>
+              <li class="bannericon4">30TB<br />
+Monthly Transfer</li>
+              <li class="bannericon5">Linux, FreeBSD<br />
+or Windows</li>
+            </ul>
+            <div class="bannerimg"><img src="images/banner_img.jpg" alt="" /></div>
+            <div class="highttag"></div>
+            <div class="banner_btns">
+              <div class="btn1 redbtn"><a href="#">GET STARTED NOW</a></div>
+              <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+              <!--banner_btns--> 
+            </div>
+            <!--banner--> 
+          </div>
+          <!--slide--> 
+        </div>
+        <div class="slide slide2">
+          <div class="banner2">
+            <h1>GB Network Web Hosting</h1>
+            <h2>High Performance Hardware for Unmatched Reliability</h2>
+            <div class="banner_text">
+              <ul>
+                <li>Web Based Control Panel</li>
+                <li>Linux and Windows Hosting</li>
+                <li>Free fast account setup</li>
+                <li>24x7 technical support</li>
+                <li>Quick account upgrades/downgrades</li>
+                <li>File Manager Full daily backups</li>
+              </ul>
+              <div class="arrow"></div>
+              <div class="rate_1">Starting from<br />
+                <span class="numeric1">RM</span><span class="numeric2">6</span><span class="numeric3">.66</span><br />
+                per month</div>
+              <!--banner_text--> 
+            </div>
+            <div class="banner_image"></div>
+            <div class="clear"></div>
+            <div class="banner_btns">
+              <div class="btn1 redbtn"><a href="#">GET STARTED NOW</a></div>
+              <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+              <!--banner_btns--> 
+            </div>
+            <!--banner2--> 
+          </div>
+          <!--slide--> 
+        </div>
+        <div class="slide slide3">
+          <div class="banner3">
+            <h1>VPS Cloud Server</h1>
+            <h2>Just scale when you need more 2x speed</h2>
+            <ul class="list1">
+              <li><span class="bullet"></span>Full Root Access</li>
+              <li><span class="bullet"></span>Powerful VPS</li>
+            </ul>
+            <div class="rate">Starting from <span class="numeric1">RM</span><span class="numeric2">50</span><span class="numeric3">.00</span> per month</div>
+            <ul class="list1 list2">
+              <li><span class="bullet"></span>Ultra High Speed Network</li>
+              <li><span class="bullet"></span>24x7 Manage Support</li>
+            </ul>
+            <div class="clear"></div>
+            <div class="banner_btns">
+              <div class="btn1 redbtn"><a href="#">GET STARTED NOW</a></div>
+              <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+              <!--banner_btns--> 
+            </div>
+            <!--banner3--> 
+          </div>
+          <!--slide--> 
+        </div>
+        <div class="slide slide4">
+          <div class="banner3 banner4">
+            <h1>Domain Registration &amp; SSL </h1>
+            <h2>Creating &amp; Offering Effective Business Solutions</h2>
+            <div class="rate_1">Starting from<br>
+              <span class="numeric1">RM</span><span class="numeric2">35</span><span class="numeric3">.00</span><br>
+              per month</div>
+            <div class="clear"></div>
+            <div class="banner_btns">
+              <div class="btn1 redbtn"><a href="#">GET STARTED NOW</a></div>
+              <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+              <!--banner_btns--> 
+            </div>
+            <!--banner4--> 
+          </div>
+          <!--slide--> 
+        </div>
+        <!--banner-slides--> 
+      </div>
+      <div class="clear"></div>
+      <div class="slider-nav-Con">
+        <div id="slider-nav" class="navi"></div>
+        <!-- slider-nav-Con--> 
+      </div>
+      <!--banner-slides-con--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <!--bannercon--> 
+</div>
+<div class="tabbox" id="tab_con1">
+  <ul class="tabs">
+    <li class="current"><a href="#tab1">Shared Hosting</a></li>
+    <li><a href="#tab2">Dedicated Server</a></li>
+    <li><a href="#tab3">VPS Server</a></li>
+    <li><a href="#tab4">Colocation</a></li>
+  </ul>
+  <div class="clear"></div>
+  <div class="wrapper" id="tab1">
+    <div class="planbox">
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image1.png" /></div>
+        <h3>Silver Plan</h3>
+        <p>powered by CloudLinux</p>
+        <div class="planrate"> RM<span class="doller">80</span>.00<br />
+          <span class="permonth">per year</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>5 GB</b> Disk Space</li>
+          <li><b>300 GB</b> Bandwidth</li>
+          <li><b>cPanel</b> Powered</li>
+          <li><b>1-Click</b> Auto Installer</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image2.png" /></div>
+        <h3>Bronze Plan</h3>
+        <p>powered by CloudLinux</p>
+        <div class="planrate"> RM<span class="doller">180</span>.00<br />
+          <span class="permonth">per year</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>10 GB</b> Disk Space</li>
+          <li><b>400 GB</b> Bandwidth</li>
+          <li><b>cPanel</b> Powered</li>
+          <li><b>1-Click</b> Auto Installer</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image3.png" /></div>
+        <h3>Gold Plan</h3>
+        <p>powered by CloudLinux</p>
+        <div class="planrate"> RM<span class="doller">230</span>.00<br />
+          <span class="permonth">per year</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>20 GB</b> Disk Space</li>
+          <li><b>500 GB</b> Bandwidth</li>
+          <li><b>cPanel</b> Powered</li>
+          <li><b>1-Click</b> Auto Installer</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <!--planbox--> 
+    </div>
+    <div class="domainbox">
+      <div class="domainlt">
+        <div class="domaintxt">FIND YOUR<br />
+          DOMAIN NAME NOW 
+          <!--domaintxt--> 
+        </div>
+        <input type="text" id="domainfield" name="domain" class="field1" value="enter your domain name here...." onfocus='javascript: if(this.value =="enter your domain name here....") this.value = ""' onblur='javascript: if(this.value =="") this.value = "enter your domain name here...."' />
+        <div class="dropdown1">
+          <select class="field2" name="ext" id="ext">
+            <option>.com.my</option>
+            <option>.org.my</option>
+            <option>.net.my</option>
+            <option>.biz</option>
+			<option>.tv</option>
+			<option>.info</option>
+			<option>.us</option>
+			<option>.cc</option>
+            <option>.name</option>
+            <option>.com</option>
+            <option>.net</option>
+            <option>.name</option>
+            <option>.org</option>
+            <option>.edu</option>
+            <option>.gov</option>
+            <option>.my</option>
+            <option>.fm</option>
+            <option>.coop</option>
+          </select>
+          <!--dropdown1--> 
+        </div>
+        <input name="button" type="submit"  class="field3" value="GO"/>
+        <!--domainlt--> 
+      </div>
+      <div class="domainrt">
+        <div class="ratebox">RM35.00<br />
+          .COM</div>
+        <div class="ratebox">RM35.00<br />
+          .NET</div>
+        <div class="ratebox">RM35.00<br />
+          .ORG</div>
+        <div class="ratebox">RM100.00<br />
+          .MY</div>
+        <!--domainrt--> 
+      </div>
+      <!--domainbox--> 
+    </div>
+    <div class="features_box">
+      <h3>Welcome to GB Network Solutions </h3>
+      <span class="style1">We offer cost-effective managed web hosting in the industry. </span>
+      <p>GB Network Solutions has been setting the standard for reliability and performance in the industry since 2007 and will be around for years to come. GB Network Solutions specialize in providing support Dedicated Server, Colocation, Virtual Private Server, Web Hosting, Domain Names and SSL.</p>
+      <ul>
+        <li class="feature_icon1"><span class="style2">99.9% Uptime Guarantee</span> GB Network Solutions runs multiple network backbone thus making us optimistic ... <a href="#">Learn More</a></li>
+        <li class="feature_icon2"><span class="style2">24/7 DEDICATED SUPPORT</span> We offer 24/7 Dedicated technical support at our ticketing desk by our highly qualified technicians ... <a href="#">Learn More</a></li>
+        <li class="feature_icon3"><span class="style2">4 x Daily Backups</span> We takes care of your 4 x daily backups, you can have full control of the actual restore ... <a href="#">Learn More</a></li>
+      </ul>
+      <ul>
+        <li class="feature_icon4"><span class="style2">Money Back Guarantee</span> We are pleased to offer an unconditional 30 day money back guarantee on our shared hosting ... <a href="#">Learn More</a></li>
+        <li class="feature_icon5"><span class="style2">CloudLinux Powered</span> All of our shared and reseller hosting plans come with CloudLinux web server as standard ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon6"><span class="style2">Network Monitoring</span> At GB Network Solutions, the moment your Dedicated server setup is completed, it is added into our monitoring ... <a href="#">Learn More</a> </li>
+      </ul>
+      <ul>
+        <li class="feature_icon7"><span class="style2">Managed Hosting</span> You have unique goals, we have unique solutions. We work with you to help you achieve ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon8"><span class="style2">CloudFlare Enhanced</span> CloudFlare is a really neat tool that basically straps a rocket to your website and ignites the fuse ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon9"><span class="style2">Experienced System Admins</span> GB Network Solutions enrolls skilled, 3+ years experienced and accredited system admins ... <a href="#">Learn More</a></li>
+      </ul>
+      <!--features_box--> 
+    </div>
+    <div class="testimonial_box">
+      <div class="fb-like-box" data-href="http://www.facebook.com/GBNetworkSolutions" data-width="998" data-height="264" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+      <!--testimonial_box--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <div class="wrapper hide" id="tab2">
+    <div class="planbox">
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image1.png" /></div>
+        <h3>Intel Core 2 Duo</h3>
+        <p>DDoS Protection Ready</p>
+        <div class="planrate"> RM<span class="doller">249</span>.90<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>2 GB</b> RAM</li>
+          <li><b>1x250 GB</b> Storage</li>
+          <li><b>30TB</b> Bandwitdh</li>
+          <li>Premium Hardware</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image2.png" /></div>
+        <h3>Intel Xeon E3</h3>
+        <p>DDoS Protection Ready</p>
+        <div class="planrate"> RM<span class="doller">590</span>.90<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>8 GB</b> RAM</li>
+          <li><b>1x1000 GB</b> Storage</li>
+          <li><b>30TB </b> Bandwidth</li>
+          <li>Premium Hardware</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image3.png" /></div>
+        <h3>Intel Xeon E5</h3>
+        <p>DDoS Protection Ready</p>
+        <div class="planrate"> RM<span class="doller">759</span>.90<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>16 GB</b> RAM</li>
+          <li><b>1x1000 GB</b> Storage</li>
+          <li><b>30 TB</b> Bandwidth</li>
+          <li>Premium Hardware</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <!--planbox--> 
+    </div>
+    <div class="domainbox">
+      <div class="domainlt">
+        <div class="domaintxt">FIND YOUR<br />
+          DOMAIN NAME NOW 
+          <!--domaintxt--> 
+        </div>
+        <input type="text" id="domainfield" name="domain" class="field1" value="enter your domain name here...." onfocus='javascript: if(this.value =="enter your domain name here....") this.value = ""' onblur='javascript: if(this.value =="") this.value = "enter your domain name here...."' />
+        <div class="dropdown1">
+          <select class="field2" name="ext" id="ext">
+            <option>.com</option>
+            <option>.org</option>
+            <option>.net</option>
+          </select>
+          <!--dropdown1--> 
+        </div>
+        <input name="button" type="submit"  class="field3" value="GO"/>
+        <!--domainlt--> 
+      </div>
+      <div class="domainrt">
+        <div class="ratebox">RM35.00<br />
+          .COM</div>
+        <div class="ratebox">RM35.00<br />
+          .NET</div>
+        <div class="ratebox">RM35.00<br />
+          .ORG</div>
+        <div class="ratebox">RM100.00<br />
+          .MY</div>
+        <!--domainrt--> 
+      </div>
+      <!--domainbox--> 
+    </div>
+    <div class="features_box">
+      <h3>Welcome to GB Network Solutions </h3>
+      <span class="style1">We offer cost-effective managed web hosting in the industry. </span>
+      <p>GB Network Solutions has been setting the standard for reliability and performance in the industry since 2007 and will be around for years to come. GB Network Solutions specialize in providing support Dedicated Server, Colocation, Virtual Private Server, Web Hosting, Domain Names and SSL.</p>
+      <ul>
+        <li class="feature_icon1"><span class="style2">99.9% Uptime Guarantee</span> GB Network Solutions runs multiple network backbone thus making us optimistic ... <a href="#">Learn More</a></li>
+        <li class="feature_icon2"><span class="style2">24/7 DEDICATED SUPPORT</span> We offer 24/7 Dedicated technical support at our ticketing desk by our highly qualified technicians ... <a href="#">Learn More</a></li>
+        <li class="feature_icon3"><span class="style2">4 x Daily Backups</span> We takes care of your 4 x daily backups, you can have full control of the actual restore ... <a href="#">Learn More</a></li>
+      </ul>
+      <ul>
+        <li class="feature_icon4"><span class="style2">Money Back Guarantee</span> We are pleased to offer an unconditional 30 day money back guarantee on our shared hosting ... <a href="#">Learn More</a></li>
+        <li class="feature_icon5"><span class="style2">CloudLinux Powered</span> All of our shared and reseller hosting plans come with CloudLinux web server as standard ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon6"><span class="style2">Network Monitoring</span> At GB Network Solutions, the moment your Dedicated server setup is completed, it is added into our monitoring ... <a href="#">Learn More</a> </li>
+      </ul>
+      <ul>
+        <li class="feature_icon7"><span class="style2">Managed Hosting</span> You have unique goals, we have unique solutions. We work with you to help you achieve ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon8"><span class="style2">CloudFlare Enhanced</span> CloudFlare is a really neat tool that basically straps a rocket to your website and ignites the fuse ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon9"><span class="style2">Experienced System Admins</span> GB Network Solutions enrolls skilled, 3+ years experienced and accredited system admins ... <a href="#">Learn More</a></li>
+      </ul>
+      <!--features_box--> 
+    </div>
+    <div class="testimonial_box">
+      <div class="fb-like-box" data-href="http://www.facebook.com/GBNetworkSolutions" data-width="998" data-height="264" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+      <!--testimonial_box-->
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <div class="wrapper hide" id="tab3">
+    <div class="planbox">
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image1.png" /></div>
+        <h3>VPS Plan I</h3>
+        <p>Premium Hardware</p>
+        <div class="planrate"> RM<span class="doller">50</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>50 GB</b> HDD</li>
+          <li><b>512 MB</b> RAM</li>
+          <li><b>1500 GB</b> Bandwidth</li>
+          <li><b>SolusVM</b> Powered</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image2.png" /></div>
+        <h3>VPS Plan II</h3>
+        <p>Premium Hardware</p>
+        <div class="planrate"> RM<span class="doller">100</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>1000 GB</b> HDD</li>
+          <li><b>1 GB</b> RAM</li>
+          <li><b>3000 GB</b> Bandwidth</li>
+          <li><b>SolusVM</b> Powered</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image3.png" /></div>
+        <h3>VPS Plan III</h3>
+        <p>Premium Hardware</p>
+        <div class="planrate"> RM<span class="doller">150</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>150 GB</b> HDD</li>
+          <li><b>2 GB</b> RAM</li>
+          <li><b>4000 GB</b> Bandwidth</li>
+          <li><b>SolusVM</b> Powered</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <!--planbox--> 
+    </div>
+    <div class="domainbox">
+      <div class="domainlt">
+        <div class="domaintxt">FIND YOUR<br />
+          DOMAIN NAME NOW 
+          <!--domaintxt--> 
+        </div>
+        <input type="text" id="domainfield" name="domain" class="field1" value="enter your domain name here...." onfocus='javascript: if(this.value =="enter your domain name here....") this.value = ""' onblur='javascript: if(this.value =="") this.value = "enter your domain name here...."' />
+        <div class="dropdown1">
+          <select class="field2" name="ext" id="ext">
+            <option>.com</option>
+            <option>.org</option>
+            <option>.net</option>
+          </select>
+          <!--dropdown1--> 
+        </div>
+        <input name="button" type="submit"  class="field3" value="GO"/>
+        <!--domainlt--> 
+      </div>
+      <div class="domainrt">
+        <div class="ratebox">RM35.00<br />
+          .COM</div>
+        <div class="ratebox">RM35.00<br />
+          .NET</div>
+        <div class="ratebox">RM35.00<br />
+          .ORG</div>
+        <div class="ratebox">RM100.00<br />
+          .MY</div>
+        <!--domainrt--> 
+      </div>
+      <!--domainbox--> 
+    </div>
+    <div class="features_box">
+      <h3>Welcome to GB Network Solutions </h3>
+      <span class="style1">We offer cost-effective managed web hosting in the industry. </span>
+      <p>GB Network Solutions has been setting the standard for reliability and performance in the industry since 2007 and will be around for years to come. GB Network Solutions specialize in providing support Dedicated Server, Colocation, Virtual Private Server, Web Hosting, Domain Names and SSL.</p>
+      <ul>
+        <li class="feature_icon1"><span class="style2">99.9% Uptime Guarantee</span> GB Network Solutions runs multiple network backbone thus making us optimistic ... <a href="#">Learn More</a></li>
+        <li class="feature_icon2"><span class="style2">24/7 DEDICATED SUPPORT</span> We offer 24/7 Dedicated technical support at our ticketing desk by our highly qualified technicians ... <a href="#">Learn More</a></li>
+        <li class="feature_icon3"><span class="style2">4 x Daily Backups</span> We takes care of your 4 x daily backups, you can have full control of the actual restore ... <a href="#">Learn More</a></li>
+      </ul>
+      <ul>
+        <li class="feature_icon4"><span class="style2">Money Back Guarantee</span> We are pleased to offer an unconditional 30 day money back guarantee on our shared hosting ... <a href="#">Learn More</a></li>
+        <li class="feature_icon5"><span class="style2">CloudLinux Powered</span> All of our shared and reseller hosting plans come with CloudLinux web server as standard ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon6"><span class="style2">Network Monitoring</span> At GB Network Solutions, the moment your Dedicated server setup is completed, it is added into our monitoring ... <a href="#">Learn More</a> </li>
+      </ul>
+      <ul>
+        <li class="feature_icon7"><span class="style2">Managed Hosting</span> You have unique goals, we have unique solutions. We work with you to help you achieve ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon8"><span class="style2">CloudFlare Enhanced</span> CloudFlare is a really neat tool that basically straps a rocket to your website and ignites the fuse ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon9"><span class="style2">Experienced System Admins</span> GB Network Solutions enrolls skilled, 3+ years experienced and accredited system admins ... <a href="#">Learn More</a></li>
+      </ul>
+      <!--features_box--> 
+    </div>
+    <div class="testimonial_box">
+      <div class="fb-like-box" data-href="http://www.facebook.com/GBNetworkSolutions" data-width="998" data-height="264" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+      <!--testimonial_box--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <div class="wrapper hide" id="tab4">
+    <div class="planbox">
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image1.png" /></div>
+        <h3>1U Rack Space</h3>
+        <p>Enterprise Infrastructure</p>
+        <div class="planrate"> RM<span class="doller">250</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>1</b> Server Allowed</li>
+          <li><b>1</b> Power Point</li>
+          <li><b>1Mbps</b> Bandwidth</li>
+          <li>JARING Datacenter</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image2.png" /></div>
+        <h3>2U Rack Space</h3>
+        <p>Enterprise Infrastructure</p>
+        <div class="planrate"> RM<span class="doller">400</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>1</b> Server Allowed</li>
+          <li><b>1</b> Power Point</li>
+          <li><b>1Mbps</b> Bandwidth</li>
+          <li>JARING Datacenter</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <div class="plan1">
+        <div class="image1"><img src="images/plan_image3.png" /></div>
+        <h3>4U Rack Space</h3>
+        <p>Enterprise Infrastructure</p>
+        <div class="planrate"> RM<span class="doller">650</span>.00<br />
+          <span class="permonth">per month</span> 
+          <!--planrate--> 
+        </div>
+        <ul class="list1">
+          <li><b>2</b> Server Allowed</li>
+          <li><b>2</b> Power Point</li>
+          <li><b>2Mbps</b> Bandwidth</li>
+          <li>JARING Datacenter</li>
+        </ul>
+        <div class="btnbox">
+          <div class="btn1 redbtn"><a href="#">ORDER NOW!</a></div>
+          <div class="btn1 greybtn"><a href="#">LEARN MORE!</a></div>
+          <!--btnbox--> 
+        </div>
+        <!--plan1--> 
+      </div>
+      <!--planbox--> 
+    </div>
+    <div class="domainbox">
+      <div class="domainlt">
+        <div class="domaintxt">FIND YOUR<br />
+          DOMAIN NAME NOW 
+          <!--domaintxt--> 
+        </div>
+        <input type="text" id="domainfield" name="domain" class="field1" value="enter your domain name here...." onfocus='javascript: if(this.value =="enter your domain name here....") this.value = ""' onblur='javascript: if(this.value =="") this.value = "enter your domain name here...."' />
+        <div class="dropdown1">
+          <select class="field2" name="ext" id="ext">
+            <option>.com</option>
+            <option>.org</option>
+            <option>.net</option>
+          </select>
+          <!--dropdown1--> 
+        </div>
+        <input name="button" type="submit"  class="field3" value="GO"/>
+        <!--domainlt--> 
+      </div>
+      <div class="domainrt">
+        <div class="ratebox">RM35.00<br />
+          .COM</div>
+        <div class="ratebox">RM35.00<br />
+          .NET</div>
+        <div class="ratebox">RM35.00<br />
+          .ORG</div>
+        <div class="ratebox">RM100.00<br />
+          .MY</div>
+        <!--domainrt--> 
+      </div>
+      <!--domainbox--> 
+    </div>
+    <div class="features_box">
+      <h3>We offer the most cost-effective </h3>
+      <span class="style1">GempakBox Network Solution in the industry. </span>
+      <p>GempakBox has been setting the standard for reliability and performance in our industry since 2007 and will be around for years to come. GempakBox specialize in providing support dedicated server, vps, web hosting, and streaming.</p>
+      <ul>
+        <li class="feature_icon1"><span class="style2">99.9% Uptime Guarantee</span> GB Network Solutions runs multiple network backbone thus making us optimistic ... <a href="#">Learn More</a></li>
+        <li class="feature_icon2"><span class="style2">24/7 DEDICATED SUPPORT</span> We offer 24/7 Dedicated technical support at our ticketing desk by our highly qualified technicians ... <a href="#">Learn More</a></li>
+        <li class="feature_icon3"><span class="style2">4 x Daily Backups</span> We takes care of your 4 x daily backups, you can have full control of the actual restore ... <a href="#">Learn More</a></li>
+      </ul>
+      <ul>
+        <li class="feature_icon4"><span class="style2">Money Back Guarantee</span> We are pleased to offer an unconditional 30 day money back guarantee on our shared hosting ... <a href="#">Learn More</a></li>
+        <li class="feature_icon5"><span class="style2">CloudLinux Powered</span> All of our shared and reseller hosting plans come with CloudLinux web server as standard ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon6"><span class="style2">Network Monitoring</span> At GB Network Solutions, the moment your Dedicated server setup is completed, it is added into our monitoring ... <a href="#">Learn More</a> </li>
+      </ul>
+      <ul>
+        <li class="feature_icon7"><span class="style2">Managed Hosting</span> You have unique goals, we have unique solutions. We work with you to help you achieve ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon8"><span class="style2">CloudFlare Enhanced</span> CloudFlare is a really neat tool that basically straps a rocket to your website and ignites the fuse ... <a href="#">Learn More</a> </li>
+        <li class="feature_icon9"><span class="style2">Experienced System Admins</span> GB Network Solutions enrolls skilled, 3+ years experienced and accredited system admins ... <a href="#">Learn More</a></li>
+      </ul>
+      <!--features_box--> 
+    </div>
+    <div class="testimonial_box">
+      <div class="fb-like-box" data-href="http://www.facebook.com/GBNetworkSolutions" data-width="998" data-height="264" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+      <!--testimonial_box--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <div class="clear"></div>
+  <!--tabbox--> 
+</div>
+<div class="partners"></div>
+<div class="footer_con">
+  <div class="wrapper">
+    <div class="footer_box">
+      <div class="sitemap">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="shared_hosting.html">Web Hosting</a></li>
+          <li><a href="dedicated.html">Dedicated Server</a></li>
+          <li><a href="vps.html">VPS Server</a></li>
+          <li><a href="colocation.html">Co-Location</a></li>
+          <li><a href="domain_ssl.html">Domain &amp; SSL</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Special Offers</a></li>
+        </ul>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="contact.html">Corporate Profile</a></li>
+          <li><a href="tos.html">Partnership Program</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html">Site Map</a></li>
+        </ul>
+        <!--sitemap--> 
+      </div>
+      <div class="sitemap">
+        <h5>Client Center</h5>
+        <ul>
+          <li><a href="#">Client Area</a></li>
+          <li><a href="#">Submit Ticket</a></li>
+          <li><a href="#">Manage Services</a></li>
+          <li><a href="#">Manage Domains</a></li>
+          <li><a href="#">Invoice History</a></li>
+          <li><a href="#">Whois Search</a></li>
+          <li><a href="#">Knowledgebase</a></li>
+          <li><a href="#">Affiliate Program</a></li>       
+        </ul>
+        <h5>Legals</h5>
+        <ul>
+          <li><a href="tos.html">Terms &amp; Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="sla.html">Acceptable User Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="privacy.html">Legal Agreements</a></li>
+        </ul>
+        <!--sitemap--> 
+      </div>
+     
+      <div class="sitemap">
+        <h5>We Accept</h5>
+        <div class="image1"><img src="images/credit_icon.jpg" alt="" /></div>
+        <!--sitemap--> 
+      </div>
+      <div class="footer_rt">
+        <div class="logo2"><a href="#"></a></div>
+        <div class="copyright">
+          <p> ©2007-2014 GB Network Solutions </p>
+          <p>(TR0102152-X).All Trademarks Are The
+            Property of Their Respective Owner.</p>
+          <!--copyright--> 
+        </div>
+        <div class="get_social"></div>
+        <div class="social_box">
+          <div class="social_icons"><a class="fb" href="#"></a></div>
+          <div class="social_icons"><a class="twitter" href="#"></a></div>
+          <div class="social_icons"><a class="rss" href="#"></a></div>
+          <div class="social_icons"><a class="linkedin" href="#"></a></div>
+          <!--social_box--> 
+        </div>
+        <!--footer_rt--> 
+      </div>
+      <!--footer_box--> 
+    </div>
+    <div class="clear"></div>
+    <!--wrapper--> 
+  </div>
+  <!--footer_con--> 
+</div>
+</body>
+</html>

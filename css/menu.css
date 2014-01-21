@@ -1,0 +1,99 @@
+/**************************MENU*****************/
+.menu_con{
+	float: left;
+	width: 100%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #474747;
+	background: url(../images/nav_bg.png) repeat-x left top;
+}
+#nav {
+	float: left;
+	width: 100%;
+}
+#nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+#nav > ul > li {
+	position:relative;
+	float:left;
+	display:inline;
+	line-height: 40px;
+	border-right: 1px solid #1c1c1c;
+}
+#nav > ul > li > a {
+	font-size: 16px;
+	color: #fff;
+	padding: 0 18px;
+	display: block;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+#nav ul li.current > a {
+	color: #bf0000;
+	text-decoration: none;
+}
+#nav ul ul {
+	padding:5px 0px;
+	border-radius:0;
+	position:absolute;
+	left:-5000px;
+	min-width:100%;
+	z-index:100;
+	opacity:0;
+	background: #eaeaea;
+}
+#nav ul li:hover ul {
+	left:0;
+	opacity:1;
+}
+#nav ul ul li:hover ul {
+	left:100%;
+	opacity:1;
+}
+#nav ul ul li {
+	white-space:nowrap;
+	padding:0 0px;
+	margin:0 0px;
+	border-bottom:1px solid #ccc;
+}
+#nav ul ul > li:last-child {
+	border-bottom:none;
+}
+#nav ul ul a {
+	font-size:16px;
+	color:#000;
+	display:block;
+	padding:0 15px;
+	text-decoration:none;
+	line-height:32px;
+	display:block;
+}
+#nav ul ul a:hover {
+	color: #bf0000;
+	text-decoration: none;
+	text-shadow:none;
+}
+#nav ul li a.offerbtn {
+	color: #fff;
+	background: #BF0000;
+}
+#nav ul li.home_btn {
+	background: none;
+}
+#nav ul li.home_btn a {
+	width: 21px;
+	height: 40px;
+	display: block;
+	padding: 0px;
+	margin: 0 15px;
+	background: url(../images/home_icon.png) no-repeat left center;
+}
+#nav ul li.home_btn a.current, #nav ul li.home_btn a:hover {
+	background: url(../images/home_icon_active.png) no-repeat left center;
+}
