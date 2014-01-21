@@ -99,21 +99,40 @@ $(document).ready(function () {
           <div class="whitebox">
             <h4>FIND YOUR<br />
               DOMAIN NAME NOW</h4>
-            <input name="email" type="text" class="field1"  />
-            <select name="" class="drop_down">
-              <option>.com</option>
-              <option>.net</option>
-              <option>.co</option>
-            </select>
-            <input name="" type="button" class=" submit" value="GO"/>
-            <!--whitebox--> 
+            <form action="https://secure.gempakbox.net/domainchecker.php" method="post">
+              <input type="hidden" name="direct" value="true" />
+              <input type="text" name="domain" size="20"class="field1" />
+              <select name="ext" class="drop_down">
+                <option>.com</option>
+                <option>.net</option>
+                <option>.org</option>
+                <option>.biz</option>
+                <option>.tv</option>
+                <option>.info</option>
+                <option>.us</option>
+                <option>.cc</option>
+                <option>.name</option>
+                <option>.com.my</option>
+                <option>.net.my</option>
+                <option>.name.my</option>
+                <option>.org.my</option>
+                <option>.edu.my</option>
+                <option>.gov.my</option>
+                <option>.my</option>
+                <option>.fm</option>
+                <option>.coop</option>
+                <option>.ws</option>
+              </select>
+              <input type="submit" class="submit" value="Go" />
+            </form>
+              <!--whitebox--> 
           </div>
           <div class="blackbox"> <span class="arrow"></span>
             <ul>
-              <li>$6.99<span>.COM</span></li>
-              <li>$6.99<span>.COM</span></li>
-              <li>$6.99<span>.COM</span></li>
-              <li>$6.99<span>.COM</span></li>
+              <li>RM35<span>.COM</span></li>
+              <li>RM35<span>.NET</span></li>
+              <li>RM100<span>.MY</span></li>
+              <li>RM130<span>.TV</span></li>
             </ul>
             <!--blackbox--> 
           </div>
@@ -139,72 +158,128 @@ $(document).ready(function () {
           <tr>
             <td>.com</td>
             <td>1</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
           </tr>
           <tr>
             <td>.net</td>
             <td>1</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
           </tr>
           <tr>
             <td>.org</td>
             <td>1</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-          </tr>
-          <tr>
-            <td>.co.uk</td>
-            <td>2</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-          </tr>
-          <tr>
-            <td>.org.uk</td>
-            <td>2</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-          </tr>
-          <tr>
-            <td>.me.uk</td>
-            <td>2</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-            <td>14.99GBP</td>
-          </tr>
-          <tr>
-            <td>.uk.com</td>
-            <td>1</td>
-            <td>45.00GBP</td>
-            <td>45.00GBP</td>
-            <td>45.00GBP</td>
-          </tr>
-          <tr>
-            <td>.uk.net</td>
-            <td>1</td>
-            <td>45.00GBP</td>
-            <td>45.00GBP</td>
-            <td>45.00GBP</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
           </tr>
           <tr>
             <td>.biz</td>
             <td>1</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+          </tr>
+          <tr>
+            <td>.tv</td>
+            <td>1</td>
+            <td>RM130.00</td>
+            <td>RM130.00</td>
+            <td>RM130.00</td>
           </tr>
           <tr>
             <td>.info</td>
             <td>1</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
-            <td>11.99GBP</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+          </tr>
+          <tr>
+            <td>.us</td>
+            <td>1</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+          </tr>
+          <tr>
+            <td>.cc</td>
+            <td>1</td>
+            <td>RM88.00</td>
+            <td>RM88.00</td>
+            <td>RM88.00</td>
+          </tr>
+          <tr>
+            <td>.name</td>
+            <td>1</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+          </tr>
+          <tr>
+            <td>.fm</td>
+            <td>1</td>
+            <td>RM385.00</td>
+            <td>RM385.00</td>
+            <td>RM385.00</td>
+          </tr>
+          <tr>
+            <td>.coop</td>
+            <td>1</td>
+            <td>RM777.00</td>
+            <td>RM777.00</td>
+            <td>RM777.00</td>
+          </tr>
+          <tr>
+            <td>.com.my</td>
+            <td>1</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+          </tr>
+          <tr>
+            <td>.net.my</td>
+            <td>1</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+          </tr>
+          <tr>
+            <td>.org.my</td>
+            <td>1</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+            <td>RM75.00</td>
+          </tr>
+          <tr>
+            <td>.edu.my</td>
+            <td>1</td>
+            <td>RM80.00</td>
+            <td>RM80.00</td>
+            <td>RM80.00</td>
+          </tr>
+          <tr>
+            <td>.gov.my</td>
+            <td>1</td>
+            <td>RM80.00</td>
+            <td>RM80.00</td>
+            <td>RM80.00</td>
+          </tr>
+          <tr>
+            <td>.name.my</td>
+            <td>1</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+            <td>RM35.00</td>
+          </tr>
+          <tr>
+            <td>.my</td>
+            <td>1</td>
+            <td>RM100.00</td>
+            <td>RM100.00</td>
+            <td>RM100.00</td>
           </tr>
         </table>
         
