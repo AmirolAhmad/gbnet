@@ -2348,12 +2348,12 @@ a:hover {
 }
 .ssl_box .domain_box .whitebox .submit {
 	float: left;
-	width: 58px;
-	height: 47px;
+	width: 55px;
+	height: 45px;
 	border-radius: 5px;
 	background: #bf0000;
 	text-align: center;
-	line-height: 47px;
+	line-height: 45px;
 	color: #fff;
 	font-size: 20px;
 	border: none;
