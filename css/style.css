@@ -734,7 +734,7 @@ a:hover {
 	height: 45px;
 	width: 108px;
 	padding: 7px;
-	line-height: 47px;
+	line-height: 45px;
 	outline: none;
 	border-radius: 5px;
 	margin: 0 8px 0 0;
@@ -2335,10 +2335,10 @@ a:hover {
 }
 .ssl_box .domain_box .whitebox .drop_down {
 	float: left;
-	height: 47px;
+	height: 45px;
 	width: 108px;
 	padding: 7px;
-	line-height: 47px;
+	line-height: 45px;
 	outline: none;
 	border-radius: 5px;
 	margin: 0 5px 0 0;
