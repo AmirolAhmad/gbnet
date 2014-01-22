@@ -135,15 +135,15 @@ function($, undefined)
 }
 )(jQuery);
 
-var san_arr = new Array('12.5GB','25GB','50GB','75GB','100GB');
-var cpu_arr = new Array('1.0 GHz','1.50 GHz','1.80 GHz','2.80 GHz','3.20 GHz');
-var trans_arr = new Array('250GB','500GB','750GB','850GB','1000GB');
-var ram_arr = new Array('1','2','3','4','6');
-var ip_arr = new Array('1','2','3','4','6');
-var price_arr = new Array('14','19','29','37','43');
-var point_arr = new Array('.18','.23','.99','.77','.53');
-var link_arr = new Array('215','166','117','147','127');
-var b_url = 'https://www.your-domain.com/?cmd=cart&action=add&id=';
+var san_arr = new Array('50GB','100GB','150GB','200GB','300GB');
+var cpu_arr = new Array('2.0 GHz','2.0 GHz','3.0 GHz','3.0 GHz','4.0 GHz');
+var trans_arr = new Array('1500GB','3000GB','4000GB','4000GB','5000GB');
+var ram_arr = new Array('512MB','1GB','2GB','3GB','4GB');
+var ip_arr = new Array('1','1','1','1','1');
+var price_arr = new Array('50','100','150','200','300');
+var point_arr = new Array('.00','.00','.00','.00','.00');
+var link_arr = new Array('0','1','2','3','4');
+var b_url = 'https://secure.gempakbox.net/cart.php?a=confproduct&i=';
 
 // This is what you want the default position to be
 var def_pos = 3;
