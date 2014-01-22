@@ -745,11 +745,11 @@ a:hover {
 .domainbox .domainlt .submit {
 	float: left;
 	width: 58px;
-	height: 47px;
+	height: 45px;
 	border-radius: 5px;
 	background: none repeat scroll 0% 0% rgb(191, 0, 0);
 	text-align: center;
-	line-height: 47px;
+	line-height: 45px;
 	color: rgb(255, 255, 255);
 	font-size: 20px;
 	border: medium none;
