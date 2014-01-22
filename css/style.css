@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
 @font-face {
 	font-family: 'Conv_MyriadPro-BoldSemiCn_0';
 	src: url('../fonts/MyriadPro-BoldSemiCn_0.eot');
@@ -30,7 +32,8 @@ body {
 	padding: 0;
 }
 body, select, input, div {
-	font-family: Arial, Helvetica, sans-serif, Calibri;
+	/* font-family: Arial, Helvetica, sans-serif, Calibri; */
+	font-family: 'Titillium Web', sans-serif;
 	color: #777;
 	font-size: 14px;
 	line-height: 18px;
@@ -92,6 +95,7 @@ a:hover {
 .headerbox .headerrt > ul.list1 > li {
 	float: left;
 	font-weight: bold;
+	font-size: 12px;
 	color: #111;
 	line-height: 27px;
 	border-bottom: 1px solid #bfbfbf;
