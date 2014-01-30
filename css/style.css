@@ -600,7 +600,7 @@ a:hover {
 	float: right;
 	width: 130px;
 	height: 82px;
-	font-size: 30px;
+	font-size: 24px;
 	color: #bf0000;
 	text-align: center;
 	line-height: 30px;
@@ -609,7 +609,7 @@ a:hover {
 	background: url(../images/planrate_bg.png) no-repeat left top;
 }
 .planbox .plan1 .planrate span.doller {
-	font-size: 46px;
+	font-size: 40px;
 }
 .planbox .plan1 .planrate span.permonth {
 	font-size: 16px;
@@ -619,7 +619,7 @@ a:hover {
 /************BUTTON CSS*******************/
 .redbtn a {
 	display: block;
-	padding: 6px 16px;
+	padding: 6px 12px;
 	color: #fff;
 	text-shadow: 0px 1px 0px #a30000;
 	text-transform: uppercase;
