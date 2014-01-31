@@ -142,8 +142,8 @@ var ram_arr = new Array('512MB','1GB','2GB','3GB','4GB');
 var ip_arr = new Array('1','1','1','1','1');
 var price_arr = new Array('50','100','150','200','300');
 var point_arr = new Array('.00','.00','.00','.00','.00');
-var link_arr = new Array('0','1','2','3','4');
-var b_url = 'https://secure.gempakbox.net/cart.php?a=confproduct&i=';
+var link_arr = new Array('24','25','26','79','81');
+var b_url = 'https://secure.gempakbox.net/cart.php?a=add&pid=';
 
 // This is what you want the default position to be
 var def_pos = 3;
