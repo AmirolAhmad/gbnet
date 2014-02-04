@@ -39,3 +39,39 @@
 .navi a.activeSlide {
 	background: url(../images/paginaion_active.png) no-repeat left top;
 }
+/*******************************special offer banner*************************/
+.domain-slides-con {
+	width: 900px;
+	float: left;
+	position: relative;
+}
+.domain-slides {
+	float: left;
+	width: 900px !important;
+	margin: 0;
+}
+.domain-slides .slide {
+	width: 900px !important;
+	float: left;
+}
+#prev, #next {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	z-index: 999;
+	top: 72px;
+	left: -50px;
+}
+#prev a, #next a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/domain_arrow_lt.png) no-repeat left top;
+}
+#next {
+	right:0px;
+	left:918px;
+}
+#next a {
+	background: url(../images/domain_arrow_rt.png)no-repeat left top;
+}

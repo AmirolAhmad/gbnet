@@ -2698,13 +2698,13 @@ a:hover {
 	opacity: 0.9;
 }
 /***********SPECIAL OFFER*********/
-.special_offerbox{
+.special_offerbox {
 	float:left;
 	width:900px;
 	padding:20px 50px;
 	text-align:center;
 }
-.special_offerbox h3{
+.special_offerbox h3 {
 	line-height:30px;
 	font-size:30px;
 	margin:0 0 10px;
@@ -2713,16 +2713,16 @@ a:hover {
 	text-align:center;
 	text-transform:uppercase;
 	border-bottom:1px solid #ccc;
-	font-family: 'Titillium Web',sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
-.domain_offer{
+.domain_offer {
 	float:left;
 	width:219px;
 	padding:0px 40px 0;
 	margin:20px 0;
 	border-right:1px solid #ccc;
 }
-.domain_offer h4{
+.domain_offer h4 {
 	line-height:30px;
 	font-size:30px;
 	margin:0 0 8px;
@@ -2730,9 +2730,9 @@ a:hover {
 	color:##353535;
 	text-align:center;
 	border-bottom:2px solid #ccc;
-	font-family: 'Titillium Web',sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
-.domain_offer .old_rate{
+.domain_offer .old_rate {
 	float:left;
 	width:100%;
 	line-height:20px;
@@ -2741,7 +2741,7 @@ a:hover {
 	text-decoration:line-through;
 	background: url(../images/at_the_rate.png) no-repeat 30% 3px;
 }
-.domain_offer .new_rate{
+.domain_offer .new_rate {
 	float:left;
 	width:100%;
 	line-height:28px;
@@ -2751,44 +2751,55 @@ a:hover {
 	padding:0 0 5px;
 	border-bottom:2px solid #ccc;
 }
-.domain_offer .style1{
+.domain_offer .style1 {
 	display:block;
 	line-height:12px;
 	font-size:12px;
 	color:#777;
 	text-transform:uppercase;
 }
-.domain_offer .redbtn{
+.domain_offer .redbtn {
 	margin:0 auto;
 	width:106px;
 }
-.shared_offer{
+.shared_offer {
 	float:left;
 	width:100%;
 	text-align:center;
 	line-height:22px;
 	font-size:22px;
 }
-.shared_offer .numeric1{
+.shared_offer h3 {
+	line-height:30px;
+	font-size:30px;
+	margin:0 0 10px;
+	padding:15px 0 5px;
+	color:#353535;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:1px solid #ccc;
+	font-family: 'Titillium Web', sans-serif;
+}
+.shared_offer .numeric1 {
 	color:#89BC1D;
 }
-.shared_offer .numeric2{
+.shared_offer .numeric2 {
 	line-height:32px;
 	font-size:32px;
 	font-weight:bold;
 }
-.shared_offer .numeric3{
+.shared_offer .numeric3 {
 	line-height:48px;
 	font-size:40px;
 	font-weight:bold;
 	color:#89BC1D;
 }
-.shared_offer:last-child{
-    margin: 10px 0 0;
-    padding: 10px 0;
+.shared_offer:last-child {
+	margin: 10px 0 0;
+	padding: 10px 0;
 	background: none repeat scroll 0 0 #D9D9D9;
 }
-.countdown_box{
+.countdown_box {
 	float:left;
 	width:100%;
 	margin:30px 0 0;
@@ -2850,18 +2861,6 @@ a:hover {
 	width: 0.7em;
 	letter-spacing: -1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /***********SPECIAL COLORS*********/
 .green {
 	color: #84ad2d;
@@ -2890,11 +2889,11 @@ a:hover {
 	width: 100%;
 	margin: 0 0 24px;
 }
-.spacer2{
+.spacer2 {
 	float: left;
 	width: 100%;
 	margin: 0 0 40px;
 }
-.noborder{
+.noborder {
 	border-right:none;
 }
